@@ -3,23 +3,23 @@
 Doc: http://docs.sequelizejs.com/
 
 
-1. Download and intall nodejs installer 
-2.1 Create 'node project folder' on localhost 
+#### 1. Download and intall nodejs installer
 
-3. open CMD
-	type 'nmp init'
+#### 2 Create 'node project folder' on localhost 
+
+#### 3. open CMD
+	type ```npm init```
 	press 'enter'
-	type 'project name'
-	type: yes
-	
-	
-4. check folder -> package.json
+	type ```project name```
+	type: ```yes```
 	
 
+#### 4. check folder -> package.json
+	
 	Create file 'package.json'
 	
 	Add this code
-	```
+```javascript
 	{
 	  "name": "mynode-app",
 	  "version": "1.0.0",
@@ -38,12 +38,13 @@ Doc: http://docs.sequelizejs.com/
 	  "author": "H",
 	  "license": "ISC"
 	}
-	```
-	
-5. create 'index.js' file on root
-
-
 ```
+	
+
+#### 5. create 'index.js' file on root
+
+
+```javascript
 /**
  * Module dependencies.
  */
@@ -115,8 +116,13 @@ http.createServer(app).listen(app.get('port'), function () {
 
 ```
 
-6. Open cmd
+#### 6. install packages
+	```npm install``` and press enter
+
+#### 7. Open cmd
 	type node index.js
 	press enter
 	
 visit: http://localhost:4444/
+
+<b>Note:</b> Make sure if your are using database Apache/mySQL is runing 

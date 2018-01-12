@@ -1,0 +1,21 @@
+<%- include ../layouts/header.ejs %>
+
+<section>
+	<div class="container">
+	
+	<h4>Display Data from DB</h4>
+	
+	<table class="table">
+		<% user.forEach(function(u) {  %>
+			<tr>
+				<td><%= u.id %></td>
+				<td><%= u.name %></td>
+				<td><%= u.email %></td>
+			</tr>
+		<% }); %>
+	</table>
+
+	</div>
+</section>
+
+<%- include ../layouts/footer.ejs %>
