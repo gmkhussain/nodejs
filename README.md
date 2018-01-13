@@ -141,3 +141,20 @@ visit: http://localhost:4444/
 ### Cannot GET / Error
 Make user url is correct
 http://localhost:4300/user-create
+
+
+
+
+
+
+### How to set the Default Route to another in NodeJS / ExpressJS
+```javascript
+/*
+** File: root/app.js
+*/
+app.get('/', function (req, res) {
+	//res.send('not found');
+    res.redirect('/user-create');
+    return false;
+  }); 
+```
