@@ -126,3 +126,18 @@ http.createServer(app).listen(app.get('port'), function () {
 visit: http://localhost:4444/
 
 <b>Note:</b> Make sure if your are using database Apache/mySQL is runing 
+
+
+
+
+
+
+
+
+
+
+
+
+### Cannot GET / Error
+Make user url is correct
+http://localhost:4300/user-create
