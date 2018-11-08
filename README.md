@@ -158,3 +158,39 @@ app.get('/', function (req, res) {
     return false;
   }); 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 align="center" id="ide">
+	<img src="https://user-images.githubusercontent.com/13700/35731649-652807e8-080e-11e8-88fd-1b2f6d553b2d.png"  height="80" width="auto" />
+	<br/>
+	Nodemon
+</h1>
+
+Nodemon automatically restarting the ```node``` application when file changes in the directory are detected.
+
+install
+```npm install -g nodemon```
+
+
+Open command line
+```nodemon your-node-app.js```

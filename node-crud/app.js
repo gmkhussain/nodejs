@@ -73,7 +73,10 @@ require('./controllers/employer.js')(app); // Page Route
 var admin = require('./controllers/admin');
 var forgot_password = require('./controllers/forgot_password'); */
  
-
+app.get('/', function(req, res){
+    res.sendfile('default.html', { root: __dirname + "/front/index" } );
+});
+	
 /* 
 app.get('/', controllers.list);
 app.get('/forgot-password', forgot_password.index);
